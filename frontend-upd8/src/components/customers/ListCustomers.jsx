@@ -11,7 +11,7 @@ import CustomPagination from "../CustomPagination/CustomPagination";
 
 let searchData = {
   page: 1,
-  perpage: 5,
+  perpage: 10,
   document: "",
   name: "",
   birthday: "",
