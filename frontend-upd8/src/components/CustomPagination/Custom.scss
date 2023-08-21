@@ -1,0 +1,38 @@
+ul {
+  li {
+    list-style-type: none;
+    margin: 15px;
+  }
+  display: flex;
+  justify-content: center;
+
+  .next-previous {
+    padding: 5px 10px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .next-previous:hover {
+    scale: 0.8;
+    opacity: 0.7;
+    transition: 0.3 all ease;
+  }
+  .active {
+    background: blue !important;
+    color: #fff !important;
+  }
+  .btn-pagination {
+    font-weight: 600;
+    padding: 5px 10px;
+    color: blue;
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+  }
+  .btn-pagination:hover {
+    scale: 0.8;
+    opacity: 0.7;
+    transition: 0.3 all ease;
+  }
+}
